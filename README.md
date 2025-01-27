@@ -42,3 +42,7 @@ Sistem manajemen game sederhana dengan fitur login, register, dan pembagian hak 
     app.baseURL = 'http://localhost:8081'
 
     database.default.database = gamelibrary
+
+## WEBSITE
+
+https://gamelibrary.my.id/
