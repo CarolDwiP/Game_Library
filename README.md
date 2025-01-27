@@ -27,6 +27,7 @@ Sistem manajemen game sederhana dengan fitur login, register, dan pembagian hak 
 
 1. Clone repositori:
    git clone https://github.com/CarolDwiP/Game_Library.git
+
    cd game-library
    
 2. Install dependency:
