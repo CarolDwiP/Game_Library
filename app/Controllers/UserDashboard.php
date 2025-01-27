@@ -15,12 +15,13 @@ class UserDashboard extends BaseController
 
     public function index()
     {
-        // Ambil data untuk chart
+        // Ambil data untuk chart dan daftar game
         $genreStats = $this->gameModel->getGenreStats();
         $priceStats = $this->gameModel->getPriceStats();
+        $games = $this->gameModel->findAll();
 
         $data = [
-            'games' => $this->gameModel->findAll(),
+            'games' => $games,
             'genreStats' => $genreStats,
             'priceStats' => $priceStats
         ];

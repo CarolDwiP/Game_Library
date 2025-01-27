@@ -27,6 +27,22 @@
         .footer {
             margin-top: 20px;
         }
+
+        /* Tambahkan di bagian style */
+        .table-games {
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
     </style>
 </head>
 <body>
@@ -34,9 +50,9 @@
         <!-- Navbar -->
         <header class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, #4e73df, #3b5998);">
             <div class="container-fluid">
-                <a href="/index.php/gamelibrary" class="navbar-brand d-flex align-items-center">
-                    <i class="ti ti-library me-2" style="font-size: 1.5rem;"></i> Game Library
-                </a>
+            <a href="<?= session()->get('role') === 'admin' ? base_url('/dashboard') : base_url('/gamelibrary') ?>" class="navbar-brand d-flex align-items-center">
+                <i class="ti ti-library me-2" style="font-size: 1.5rem;"></i> Game Library
+            </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
