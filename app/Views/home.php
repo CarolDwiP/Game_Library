@@ -1,4 +1,3 @@
-// app/Views/home.php
 <?= $this->extend('layouts/main') ?>
 
 <?= $this->section('content') ?>
