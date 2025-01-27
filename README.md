@@ -4,7 +4,7 @@
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-4.3-EF4223?logo=codeigniter)
 
 
-[Hosting Web](https://gamelibrary.my.id/).
+[https://gamelibrary.my.id/](https://gamelibrary.my.id/).
 
 Sistem manajemen game sederhana dengan fitur login, register, dan pembagian hak akses untuk admin dan user.
 
