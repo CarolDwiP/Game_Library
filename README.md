@@ -35,5 +35,6 @@ Sistem manajemen game sederhana dengan fitur login, register, dan pembagian hak 
 3. Import database (gamelibrary.sql)
 
 4. Salin file .env.example ke .env dan sesuaikan:
-    app.baseURL = 'http://localhost:8080'
+    app.baseURL = 'http://localhost:8081'
+
     database.default.database = gamelibrary
